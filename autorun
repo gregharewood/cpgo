@@ -1,1 +1,7 @@
-xxx
+#!/bin/bash
+#
+# LOAD ONTO A CHECKPOINT DEVICE USING
+#     bash <(curl_cli -k https://raw.githubusercontent.com/gregharewood/cpgo/master/autorun)
+#
+
+echo working
