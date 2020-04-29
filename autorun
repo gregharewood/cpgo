@@ -16,5 +16,5 @@ echo working ok
 
 EOFXX
 chmod 755 CPGObootstrap
-exec CPGObootstrap
+exec ./CPGObootstrap
 
