@@ -1,0 +1,20 @@
+#!/bin/bash
+#
+# LOAD ONTO A CHECKPOINT DEVICE USING
+#     bash <(curl_cli -k https://raw.githubusercontent.com/gregharewood/cpgo/master/autorun)
+#
+
+cd /home/admin
+[ -d CPGO ] || mkdir CPGO
+cd CPGO
+cat <<EOFXX >CPGObootstrap
+#!/bin/bash
+
+echo working ok
+
+
+
+EOFXX
+chmod 755 CPGObootstrap
+exec ./CPGObootstrap
+
