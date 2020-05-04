@@ -2,6 +2,5 @@
 
 cd /home/admin/CPGO
 
-clish -f initial.clish
-
-
+clish -c "lock database override"
+clish -i -f initial.clish
